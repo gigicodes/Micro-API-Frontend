@@ -97,6 +97,7 @@ body {
 	font-size: 16px;
 	display: flex;
 	align-items: center;
+	padding-left: 0 !important;
 }
 .form-check-label {
 	display: block;
