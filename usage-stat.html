@@ -12,18 +12,51 @@
         integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 
     <!-- This CSS link is for my CUSTOM CSS -->
-    <link rel="stylesheet" type="text/css" href="/usage-stat.css">
+    <link rel="stylesheet" type="text/css" href="/usage-stat.css" >
+    <link rel="stylesheet" type="text/css" href="./assets/css/signup.css">
 
     <title>MicroApi Usage Stats</title>
 
 <body>
 
     <section class="container-fluid flex-container">
-        <header class="col">
-            <nav class="navbar navbar-light" style="position-fixed; zindex:1;">
-                <a class="navbar-brand text-white mx-auto"><img src="/assets/img/logo.png" class="rounde-right bg-light"></a>
-            </nav>
+        <header>
+            <div class="container-fluid nav-bg">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a href="#" class="navbar-brand pl-lg-5">
+                        <img src="./assets/img/signup/logo.png" alt="logo" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                    aria-controls="collapsibleNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <!-- <img src="./img/signup/hamburger-menu-38.png" alt="hamburger-menu" class="img-fluid">    -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav" id="growth">
+                        <li class="nav-item pr-2 normal">
+                            <a class="nav-link" href="#">Home</a>
+                          </li>
+                          <li class="nav-item pr-2 normal">
+                            <a class="nav-link" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item pr-2 normal">
+                            <a class="nav-link" href="#">Contact Us</a>
+                          </li>
+                          <li class="nav-item pr-2 normal">
+                            <a class="nav-link" href="#">Documentation</a>
+                          </li>
+                          <li class="nav-item abnormal pr-lg-4">
+                            <a class="nav-link" href="#">Sign In</a>
+                          </li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
         </header>
+    
 
         <section class="user container-fluid d-flex flex-column flex-wrap text-center"><br><br>
             <h3 class="user text-secondary text-uppercase"><b>USAGE STATISTICS</b></h3>
@@ -176,32 +209,6 @@
             </div>
         </div>
         </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
