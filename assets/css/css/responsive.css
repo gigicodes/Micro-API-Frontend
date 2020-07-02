@@ -111,6 +111,10 @@
     width: 46em !important;
   }
 
+  .first__section-img {
+    margin-bottom: 4em;
+  }
+
   /* second section */
   .second__section p {
     width: 18em !important;
@@ -151,9 +155,8 @@
   }
 
   .fifth__section-content .btn-content {
-
+    margin-left: 4em;
   }
-
   
 }
 
@@ -174,7 +177,7 @@
   }
 
   .nav__btn {
-    margin-left: 28em;
+    margin-left: 16em;
   }
 
   .inner__container {
@@ -238,7 +241,7 @@
   }
 
   .third-content {
-    padding-top: 5em;
+    padding-top: 2em;
   }
 
   .first__row {
